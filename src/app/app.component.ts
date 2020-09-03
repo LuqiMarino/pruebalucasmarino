@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-nuevo-componente',
-  templateUrl: './nuevo-componente.component.html',
-  styleUrls: ['./nuevo-componente.component.css']
+  selector: 'app-clase1',
+  templateUrl: './clase1.component.html',
+  styleUrls: ['./clase1.component.css']
 })
 
 export class AppComponent {
-  title = 'pruebalucas';
+  title = 'pruebalucasmarino';
 }
 
 export class NuevoComponenteComponent implements OnInit {
