@@ -1,9 +1,13 @@
 <p>EJERCICIO 1</p>
 <label>Ingrese edad1: </label>
-<input type="text"  id="edad1">
+<input type="text"  id="edad1" [(ngModel)]="edad1">
 <label>Ingrese edad2: </label>
-<input type="text" name="edad2" id="edad2">
+<input type="text" name="edad2" id="edad2" [(ngModel)]="edad2">
 <br>
-<!-- <button (click)="CalcularPromedio()">Calcular Promedio</button> -->
+<button (click)="CalcularPromedio()">Calcular Promedio</button>
 <br>
-<!-- <button (click)="Limpiar()">Limpiar</button> -->
+<button (click)="Limpiar()">Limpiar</button>
+
+<br>
+<label>PROMEDIO: </label>
+<input type="text" id="prom" [(ngModel)]="prom">
