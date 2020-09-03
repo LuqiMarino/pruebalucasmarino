@@ -26,17 +26,3 @@ export class AppComponent {
     (<HTMLInputElement>document.getElementById("prom")).value = "";
   }
 }
-
-export class NuevoComponenteComponent implements OnInit {
-  public ejemplo = "Hola";
-  public ejemplo2 = "Hola Mundo 2";
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  PruebaClick(){
-    this.ejemplo2 = "EJECUTAMOS EL EVENTO";
-  }
-
-}
