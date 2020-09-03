@@ -4,9 +4,13 @@
 <label>Ingrese edad2: </label>
 <input type="text" name="edad2" id="edad2" [(ngModel)]="edad2">
 <br>
-<button (click)="CalcularPromedio()">Calcular Promedio</button>
+<button (click)="CalcularPromedio()">Calcular</button>
 <button (click)="Limpiar()">Limpiar</button>
 
 <br><br>
 <label>PROMEDIO: </label>
 <input type="text" id="prom" [(ngModel)]="prom" disabled>
+
+<br>
+<label>SUMA: </label>
+<input type="text" id="suma" [(ngModel)]="suma" disabled>
