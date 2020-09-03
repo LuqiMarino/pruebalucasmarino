@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-clase1',
-  templateUrl: './clase1.component.html',
-  styleUrls: ['./clase1.component.css']
+  templateUrl: './Ejercicio/clase1/clase1.component.html',
+  styleUrls: ['./Ejercicio/clase1/clase1.component.css']
 })
 
 export class AppComponent {
